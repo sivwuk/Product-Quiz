@@ -1,0 +1,64 @@
+{
+    "questions": [
+        {
+            "question": "Do you prefer an all-in-one platform for notes, tasks, and databases? (Yes/No/Maybe)",
+            "Notion": "Yes",
+            "Obsidian": "No",
+            "Amplenote": "No"
+        },
+        {
+            "question": "Are you looking for a highly customizable note-taking experience with a focus on markdown and plain text? (Yes/No/Maybe)",
+            "Notion": "No",
+            "Obsidian": "Yes",
+            "Amplenote": "No"
+        },
+        {
+            "question": "Do you need strong collaboration features for working with teams or sharing your notes? (Yes/No/Maybe)",
+            "Notion": "Yes",
+            "Obsidian": "No",
+            "Amplenote": "No"
+        },
+        {
+            "question": "Is offline access to your notes and documents a crucial requirement? (Yes/No/Maybe)",
+            "Notion": "No",
+            "Obsidian": "Yes",
+            "Amplenote": "Yes"
+        },
+        {
+            "question": "Are you interested in creating a personal knowledge base with interconnected notes and backlinks? (Yes/No/Maybe)",
+            "Notion": "Yes",
+            "Obsidian": "Yes",
+            "Amplenote": "Yes"
+        },
+        {
+            "question": "Do you prefer a minimalist and distraction-free interface for your note-taking? (Yes/No/Maybe)",
+            "Notion": "Yes",
+            "Obsidian": "Yes",
+            "Amplenote": "Yes"
+        },
+        {
+            "question": "Is mobile access and synchronization across devices important to you? (Yes/No/Maybe)",
+            "Notion": "Yes",
+            "Obsidian": "Yes",
+            "Amplenote": "Yes"
+        },
+        {
+            "question": "Are you looking for a free or cost-effective note-taking solution? (Yes/No/Maybe)",
+            "Notion": "Yes",
+            "Obsidian": "Yes",
+            "Amplenote": "Yes"
+        },
+        {
+            "question": "Do you value an active and supportive community of users and developers for ongoing support and development? (Yes/No/Maybe)",
+            "Notion": "Yes",
+            "Obsidian": "Yes",
+            "Amplenote": "Yes"
+        },
+        {
+            "question": "Are you primarily interested in task management and to-do lists alongside note-taking? (Yes/No/Maybe)",
+            "Notion": "Yes",
+            "Obsidian": "No",
+            "Amplenote": "Yes"
+        }
+    ]
+}

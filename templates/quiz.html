@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notetaking App Match Maker</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Notetaking App Match Maker</h1>
+  
+    <form method="post" action="/question/{{ next_index }}">
+        <p>{{ question.question }}</p>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="answer" value="Yes">
+        <label for="no">No</label>
+        <input type="radio" id="no" name="answer" value="No">
+        <label for="maybe">Maybe</label>
+        <input type="radio" id="maybe" name="answer" value="Maybe" checked>
+        <br><br>
+        
+        <button type="submit">Next Question</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notetaking App Match Maker</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Notetaking App Match Maker</h1>
+
+    <div>
+        <p>Here are your quiz results:</p>
+
+        <!-- Display the results based on your calculation -->
+        <p>Your result: {{ user_responses }}</p>
+    </div>
+    <form method="get" action="/question/{{ next_index }}">
+       <button type="submit">Restart Questions</button>
+    </form>
+
+
+</body>
+</html>
